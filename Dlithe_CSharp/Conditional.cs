@@ -10,6 +10,7 @@ namespace Dlithe_CSharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Control Statements - Conditional and Looping");
             Console.WriteLine("Conditional Statements");
             // if-else , switch-case
             // simple if, if-else, else if, nested if
@@ -52,10 +53,12 @@ namespace Dlithe_CSharp
 
                 default:
                     Console.WriteLine($"{c} is Not a vowel");
-                    break ;
+                    break;
 
             }
             Console.ReadLine();
         }
+
+
     }
 }
