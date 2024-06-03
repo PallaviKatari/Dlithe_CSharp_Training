@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BA88899-489B-4A47-A8D7-AA4B4299F9D2}</ProjectGuid>
+    <ProjectGuid>{80B61059-C888-4ECC-A449-8C97DF7CA42E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dlithe_CSharp</RootNamespace>
-    <AssemblyName>Dlithe_CSharp</AssemblyName>
+    <RootNamespace>InternalAccessSpecifier</RootNamespace>
+    <AssemblyName>InternalAccessSpecifier</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Dlithe_CSharp.AccessSpecifiers</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessSpecifiers.cs" />
-    <Compile Include="Arrays.cs" />
-    <Compile Include="Conditional.cs" />
-    <Compile Include="Looping.cs" />
-    <Compile Include="Oops.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
