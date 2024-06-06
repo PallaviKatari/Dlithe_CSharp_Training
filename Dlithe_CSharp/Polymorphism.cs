@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Dlithe_CSharp
 {
     /// <summary>
-    /// Polymorphism-Method Overloading,Method Overriding
+    /// Polymorphism-Method Overloading,Method Overriding(Inheritance,Abstraction)
     /// </summary>
     internal class Polymorphism
     {

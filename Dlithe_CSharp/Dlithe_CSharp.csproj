@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Dlithe_CSharp.Polymorphism</StartupObject>
+    <StartupObject>Dlithe_CSharp.Interfaces</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction.cs" />
     <Compile Include="AccessSpecifiers.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="Conditional.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Interfaces.cs" />
     <Compile Include="Looping.cs" />
     <Compile Include="Oops.cs" />
     <Compile Include="Polymorphism.cs" />
