@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Dlithe_CSharp.Interfaces</StartupObject>
+    <StartupObject>Dlithe_CSharp.Collections</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,11 @@
     <Compile Include="Abstraction.cs" />
     <Compile Include="AccessSpecifiers.cs" />
     <Compile Include="Arrays.cs" />
+    <Compile Include="Collections.cs" />
     <Compile Include="Conditional.cs" />
+    <Compile Include="Constructors.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="Looping.cs" />
