@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Dlithe_CSharp.Collections</StartupObject>
+    <StartupObject>Dlithe_CSharp.Exceptions</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,14 +53,18 @@
     <Compile Include="Conditional.cs" />
     <Compile Include="Constructors.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Enumeration.cs" />
+    <Compile Include="Exceptions.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="Looping.cs" />
+    <Compile Include="Nullables.cs" />
     <Compile Include="Oops.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -18,7 +18,8 @@ namespace Dlithe_CSharp
             Console.WriteLine("Welcome to CSharp");
             Console.WriteLine("Test Data again");
 
-            //Datatypes - Value Type - int,float,double,bool, Reference Type - class,interface, delegates
+            //Datatypes - Value Type - int,float,double,bool,structures,enum
+            //Reference Type - class,interface, delegates
 
             //datatype variable = value;
             int a = 10;
