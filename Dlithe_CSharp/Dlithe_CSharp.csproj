@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Dlithe_CSharp.Exceptions</StartupObject>
+    <StartupObject>Dlithe_CSharp.Files</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Enumeration.cs" />
     <Compile Include="Exceptions.cs" />
+    <Compile Include="Files.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Interfaces.cs" />
